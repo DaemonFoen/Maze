@@ -33,8 +33,8 @@ class MazeSolverModelImplTest {
     void generateMazeTest() {
         mazeSolverModel.generateMaze(30, 60);
 
-        assertEquals(30, mazeSolverModel.maze().width());
-        assertEquals(60, mazeSolverModel.maze().height());
+        assertEquals(60, mazeSolverModel.maze().width());
+        assertEquals(30, mazeSolverModel.maze().height());
     }
 
     @Test
